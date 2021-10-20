@@ -1,0 +1,69 @@
+
+body {
+  cursor: url("../images/ca.jpg"), auto;
+}
+
+
+
+.container:hover {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.container {
+  position: relative;
+  text-align: right;
+  webkit-filter: blur(4px);
+  filter: blur(4px);
+
+}
+
+.heading {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.heading2 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+h1 {
+  color: black;
+  font-family: helvetica;
+  font-size: 100px;
+  color: transparent;
+  text-shadow: 0 0 8px black;
+  opacity: 100%;
+}
+
+h2 {
+  color: black;
+  font-family: helvetica;
+  font-size: 30px;
+  color: transparent;
+  text-shadow: 0 0 3px black;
+  opacity: 100%;
+
+}
+
+img {
+  width: 5%;
+
+}
+
+
+.outfit2t {
+text-align: center;
+
+
+}
+
+.outfit2t:hover img {
+ -moz-transform: scale(1..2);
+ -webkit-transform: scale(2.2);
+ transform: scale(2.2);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+}

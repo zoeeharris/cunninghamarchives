@@ -1,0 +1,140 @@
+
+body {
+  	/*(Cursor image must be 32*32 pixles)*/
+	cursor: url("./images/ca.jpg"), auto;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  pointer-events: none;
+
+}
+
+
+
+h1 {
+  color: black;
+  font-family: helvetica;
+  font-size: 180px;
+  color: transparent;
+  text-shadow: 0 0 15px #000000;
+  opacity: 100%;
+
+
+}
+
+
+
+.outfit1t {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit1t img {
+  width: 30%;
+}
+
+.outfit1t:hover {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
+
+.outfit1p {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit1p img {
+  width: 50%;
+}
+
+.outfit1p:hover {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
+
+.outfit2t {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit2t:hover  {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
+
+.outfit2p {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit2p img {
+  width: 25%;
+}
+
+.outfit2p:hover  {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
+
+.outfit3t {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit3t:hover  {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
+
+.outfit3p {
+text-align: center;
+filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+.outfit3p img {
+  width: 30%;
+}
+
+.outfit3p:hover  {
+  webkit-filter: blur(0px);
+  filter: blur(0px);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 2));
+}
